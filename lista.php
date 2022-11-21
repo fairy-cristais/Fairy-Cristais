@@ -26,11 +26,10 @@ include_once("conexao.php");
 				<a href="lista.php" class="nav-button">Lista de Usuários</a>
 			</div>
 		</nav>
-		<h3 align="center">Pesquisa de usuários cadastrados:</h3>
+		<h3 align="center">Lista de usuários cadastrados:</h3>
 		<section class="section">
 		<div class="article">
 			<div id="divBusca">
-  				<input type="text" id="txtBusca" placeholder="Buscar..." id="btnBusca" alt="Buscar"/>
 			</div>
 		<br><br>
 		<?php 
