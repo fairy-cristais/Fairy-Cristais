@@ -249,7 +249,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 		<link rel="shortcut icon" href="logo.png" type="image/x-icon">
 		<title> Catálogo </title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css2.css">
+		<link rel="stylesheet" type="text/css" href="css1.css">
 	</head>
 	<body>
 		<nav class="nav">
@@ -258,8 +258,8 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			<div class="nav-items">
 			<button class="menu"><img src="menu.png"></button>
 				<a class="nav-button" style="background-color: #cccccc;">Usuário Logado</a>
-				<a href="pag_principal2.html" class="nav-button"> Início </a>
-				<a href="cadastro_clientes2.php" class="nav-button"> Login </a>
+				<a href="pag_principal2.html" class="nav-button">Página Inicial</a>
+				<a href="cadastro_clientes2.php" class="nav-button">Realizar Login</a>
 				<a href="sobre2.html" class="nav-button"> Conheça nossa loja </a>
 				<a href="catalogo2.php" class="nav-button"> Catálogo </a>
 				<a href="denuncia2.html" class="nav-button">❣❣❣</a>
