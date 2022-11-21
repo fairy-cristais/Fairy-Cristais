@@ -18,7 +18,7 @@ session_start();
   <meta charset="UTF-8" />
   <title>Cadastro/Login</title>
   <meta  charset="utf-8"> 
-  <link rel="stylesheet" type="text/css" href="css2.css" />
+  <link rel="stylesheet" type="text/css" href="css1.css" />
 </head>
 <body>
     <nav class="nav">
