@@ -248,7 +248,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 		<link rel="shortcut icon" href="logo.png" type="image/x-icon">
 		<title> Catálogo </title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css2.css">
+		<link rel="stylesheet" type="text/css" href="css1.css">
 	</head>
 	<body>
 		<nav class="nav">
