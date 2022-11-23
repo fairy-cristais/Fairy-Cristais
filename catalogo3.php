@@ -1,200 +1,200 @@
 <?php
-include('conexao.php');
+include('conexao.php'); // insere variável de conexão com o banco
 if(isset($_POST['id_prod']) && isset($_POST['nome_prod']) && isset($_POST['descricao']) && isset($_POST['valor']) && isset($_POST['categoria']));
-
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 1";
+// verifica todas as variáveis da tabela de produto
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 1"; // seleciona nome e valor da tabela produto, com base no id
 $res = mysqli_query($conexao,$sql);
 $prod1 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 2";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 2";
 $res = mysqli_query($conexao,$sql);
 $prod2 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 3";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 3";
 $res = mysqli_query($conexao,$sql);
 $prod3 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 4";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 4";
 $res = mysqli_query($conexao,$sql);
 $prod4 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 5";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 5";
 $res = mysqli_query($conexao,$sql);
 $prod5 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 6";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 6";
 $res = mysqli_query($conexao,$sql);
 $prod6 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 7";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 7";
 $res = mysqli_query($conexao,$sql);
 $prod7 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 8";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 8";
 $res = mysqli_query($conexao,$sql);
 $prod8 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 9";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 9";
 $res = mysqli_query($conexao,$sql);
 $prod9 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 10";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 10";
 $res = mysqli_query($conexao,$sql);
 $prod10 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 11";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 11";
 $res = mysqli_query($conexao,$sql);
 $prod11 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 12";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 12";
 $res = mysqli_query($conexao,$sql);
 $prod12 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 13";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 13";
 $res = mysqli_query($conexao,$sql);
 $prod13 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 14";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 14";
 $res = mysqli_query($conexao,$sql);
 $prod14 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 15";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 15";
 $res = mysqli_query($conexao,$sql);
 $prod15 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 16";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 16";
 $res = mysqli_query($conexao,$sql);
 $prod16 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 17";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 17";
 $res = mysqli_query($conexao,$sql);
 $prod17 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 18";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 18";
 $res = mysqli_query($conexao,$sql);
 $prod18 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 19";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 19";
 $res = mysqli_query($conexao,$sql);
 $prod19 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 20";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 20";
 $res = mysqli_query($conexao,$sql);
 $prod20 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 21";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 21";
 $res = mysqli_query($conexao,$sql);
 $prod21 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 22";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 22";
 $res = mysqli_query($conexao,$sql);
 $prod22 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 23";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 23";
 $res = mysqli_query($conexao,$sql);
 $prod23 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 24";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 24";
 $res = mysqli_query($conexao,$sql);
 $prod24 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 25";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 25";
 $res = mysqli_query($conexao,$sql);
 $prod25 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 26";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 26";
 $res = mysqli_query($conexao,$sql);
 $prod26 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 27";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 27";
 $res = mysqli_query($conexao,$sql);
 $prod27 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 28";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 28";
 $res = mysqli_query($conexao,$sql);
 $prod28 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 29";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 29";
 $res = mysqli_query($conexao,$sql);
 $prod29 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 30";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 30";
 $res = mysqli_query($conexao,$sql);
 $prod30 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 31";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 31";
 $res = mysqli_query($conexao,$sql);
 $prod31 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 32";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 32";
 $res = mysqli_query($conexao,$sql);
 $prod32 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 33";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 33";
 $res = mysqli_query($conexao,$sql);
 $prod33 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 34";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 34";
 $res = mysqli_query($conexao,$sql);
 $prod34 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 35";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 35";
 $res = mysqli_query($conexao,$sql);
 $prod35 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 36";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 36";
 $res = mysqli_query($conexao,$sql);
 $prod36 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 37";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 37";
 $res = mysqli_query($conexao,$sql);
 $prod37 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 38";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 38";
 $res = mysqli_query($conexao,$sql);
 $prod38 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 39";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 39";
 $res = mysqli_query($conexao,$sql);
 $prod39 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 40";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 40";
 $res = mysqli_query($conexao,$sql);
 $prod40 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 41";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 41";
 $res = mysqli_query($conexao,$sql);
 $prod41 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 42";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 42";
 $res = mysqli_query($conexao,$sql);
 $prod42 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 43";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 43";
 $res = mysqli_query($conexao,$sql);
 $prod43 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 44";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 44";
 $res = mysqli_query($conexao,$sql);
 $prod44 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 45";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 45";
 $res = mysqli_query($conexao,$sql);
 $prod45 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 46";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 46";
 $res = mysqli_query($conexao,$sql);
 $prod46 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 47";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 47";
 $res = mysqli_query($conexao,$sql);
 $prod47 = mysqli_fetch_assoc($res);
 
-$sql = "SELECT id_prod, nome_prod, valor FROM tb_produto3 WHERE id_prod= 48";
+$sql = "SELECT nome_prod, valor FROM tb_produto3 WHERE id_prod= 48";
 $res = mysqli_query($conexao,$sql);
 $prod48 = mysqli_fetch_assoc($res);
 
-$sql_query = $conexao->query("SELECT * FROM upload where id=1") or die($con->error);
+$sql_query = $conexao->query("SELECT * FROM upload where id=1") or die($con->error); // seleciona a imagem na tabela Upload com base no id
 $sql_query2 = $conexao->query("SELECT * FROM upload where id=2") or die($con->error);
 $sql_query3 = $conexao->query("SELECT * FROM upload where id=3") or die($con->error);
 $sql_query4 = $conexao->query("SELECT * FROM upload where id=4") or die($con->error);
@@ -242,13 +242,14 @@ $sql_query45 = $conexao->query("SELECT * FROM upload where id=45") or die($con->
 $sql_query46 = $conexao->query("SELECT * FROM upload where id=46") or die($con->error);
 $sql_query47 = $conexao->query("SELECT * FROM upload where id=47") or die($con->error);
 $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->error);
+
 ?>
 <html>
 	<head>
 		<link rel="shortcut icon" href="logo.png" type="image/x-icon">
 		<title> Catálogo </title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css1.css">
+		<link rel="stylesheet" type="text/css" href="css3.css">
 	</head>
 	<body>
 		<nav class="nav">
@@ -256,13 +257,12 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			<h1>❀ Fairy Cristais ❀</h1>
 			<div class="nav-items">
 			<button class="menu"><img src="menu.png"></button>
-				<a class="nav-button" style="background-color: #cccccc;">Administrador Logado</a>
-				<a href="pag_principal3.html" class="nav-button"> Início </a>
-				<a href="cadastro_clientes3.php" class="nav-button"> Login </a>
-				<a href="sobre3.html" class="nav-button"> Conheça nossa loja </a>
-				<a href="catalogo3.php" class="nav-button"> Catálogo </a>
-				<a href="denuncia3.html" class="nav-button">❣❣❣</a>
-				<a href="lista.php" class="nav-button">Lista de Usuário</a>
+				<a class="nav-button" style="background-color: #cccccc;">Usuário Logado</a>
+				<a href="pag_principal2.html" class="nav-button">Página Inicial</a>
+				<a href="cadastro_clientes2.php" class="nav-button">Realizar Login</a>
+				<a href="sobre2.html" class="nav-button"> Conheça nossa loja </a>
+				<a href="catalogo2.php" class="nav-button"> Catálogo </a>
+				<a href="denuncia2.html" class="nav-button">❣❣❣</a>
 			</div>
 		</nav>
 		<section class="section">
@@ -272,24 +272,27 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			   <div class="atractions2">
             
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo = $sql_query->fetch_assoc()){
-          echo $arquivo['path']; 
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo = $sql_query->fetch_assoc()){
+          echo $arquivo['path']; // apresenta a imagem salva na tabela upload através do caminho dela
           }
           ?>" alt=imagens>
-                <figcaption class="produto"><?php foreach ($prod1 as $value) {echo "$value<br>";} ?></figcaption>
-				<a align="center" href="att_catalogo.php" >Editar campo.</a>
-            </div>
+                <figcaption class="produto"><?php foreach ($prod1 as $value) {echo "$value<br>";}
+				// apresenta os dados inseridos no nome e valor do produto
+				 ?></figcaption>
+				 <a align="center" href="att_catalogo.php" >Editar campo.</a>
+	
+			</div>
            
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo2 = $sql_query2->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo2 = $sql_query2->fetch_assoc()){
           echo $arquivo2['path']; 
           }?> " alt=imagens>
-				<figcaption class="produto"><?php foreach ($prod2 as $value) {echo "$value<br>";} ?></figcaption>	
-				<a align="center" href="att_catalogo.php" >Editar campo.</a>
+				<figcaption class="produto"><?php foreach ($prod2 as $value) {echo "$value<br>";} ?></figcaption>
+				<a align="center" href="att_catalogo.php" >Editar campo.</a>	
             </div>
         
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo3 = $sql_query3->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo3 = $sql_query3->fetch_assoc()){
           echo $arquivo3['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod3 as $value) {echo "$value<br>";} ?></figcaption>
@@ -297,7 +300,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
             
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo4 = $sql_query4->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo4 = $sql_query4->fetch_assoc()){
           echo $arquivo4['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod4 as $value) {echo "$value<br>";} ?></figcaption>
@@ -305,7 +308,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo5 = $sql_query5->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo5 = $sql_query5->fetch_assoc()){
           echo $arquivo5['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod5 as $value) {echo "$value<br>";} ?></figcaption>
@@ -313,7 +316,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo6 = $sql_query6->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo6 = $sql_query6->fetch_assoc()){
           echo $arquivo6['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod6 as $value) {echo "$value<br>";} ?></figcaption>
@@ -321,7 +324,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo7 = $sql_query7->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo7 = $sql_query7->fetch_assoc()){
           echo $arquivo7['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod7 as $value) {echo "$value<br>";} ?></figcaption>
@@ -329,7 +332,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo8 = $sql_query8->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo8 = $sql_query8->fetch_assoc()){
           echo $arquivo8['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod8 as $value) {echo "$value<br>";} ?></figcaption>
@@ -342,7 +345,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			 <div class="atractions2">
             
 			 <div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo9 = $sql_query9->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo9 = $sql_query9->fetch_assoc()){
           echo $arquivo9['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod9 as $value) {echo "$value<br>";} ?></figcaption>
@@ -350,7 +353,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo10 = $sql_query10->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo10 = $sql_query10->fetch_assoc()){
           echo $arquivo10['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod10 as $value) {echo "$value<br>";} ?></figcaption>
@@ -358,7 +361,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo11 = $sql_query11->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo11 = $sql_query11->fetch_assoc()){
           echo $arquivo11['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod11 as $value) {echo "$value<br>";} ?></figcaption>
@@ -366,7 +369,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo12 = $sql_query12->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo12 = $sql_query12->fetch_assoc()){
           echo $arquivo12['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod12 as $value) {echo "$value<br>";} ?></figcaption>
@@ -374,7 +377,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo13 = $sql_query13->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo13 = $sql_query13->fetch_assoc()){
           echo $arquivo13['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod13 as $value) {echo "$value<br>";} ?></figcaption>
@@ -382,7 +385,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo14 = $sql_query14->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo14 = $sql_query14->fetch_assoc()){
           echo $arquivo14['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod14 as $value) {echo "$value<br>";} ?></figcaption>
@@ -390,7 +393,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-150" height = "250" src="<?php while ($arquivo15 = $sql_query15->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo15 = $sql_query15->fetch_assoc()){
           echo $arquivo15['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod15 as $value) {echo "$value<br>";} ?></figcaption>
@@ -398,7 +401,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo16 = $sql_query16->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo16 = $sql_query16->fetch_assoc()){
           echo $arquivo16['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod16 as $value) {echo "$value<br>";} ?></figcaption>
@@ -411,7 +414,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			 <div class="atractions2">
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo17 = $sql_query17->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo17 = $sql_query17->fetch_assoc()){
           echo $arquivo17['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod17 as $value) {echo "$value<br>";} ?></figcaption>
@@ -419,7 +422,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo18 = $sql_query18->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo18 = $sql_query18->fetch_assoc()){
           echo $arquivo18['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod18 as $value) {echo "$value<br>";} ?></figcaption>
@@ -427,7 +430,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo19 = $sql_query19->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo19 = $sql_query19->fetch_assoc()){
           echo $arquivo19['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod19 as $value) {echo "$value<br>";} ?></figcaption>
@@ -435,7 +438,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo20 = $sql_query20->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo20 = $sql_query20->fetch_assoc()){
           echo $arquivo20['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod20 as $value) {echo "$value<br>";} ?></figcaption>
@@ -443,7 +446,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo21 = $sql_query21->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo21 = $sql_query21->fetch_assoc()){
           echo $arquivo21['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod21 as $value) {echo "$value<br>";} ?></figcaption>
@@ -451,7 +454,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo22 = $sql_query22->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo22 = $sql_query22->fetch_assoc()){
           echo $arquivo22['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod22 as $value) {echo "$value<br>";} ?></figcaption>
@@ -459,7 +462,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo23 = $sql_query23->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo23 = $sql_query23->fetch_assoc()){
           echo $arquivo23['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod23 as $value) {echo "$value<br>";} ?></figcaption>
@@ -467,7 +470,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo24 = $sql_query24->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo24 = $sql_query24->fetch_assoc()){
           echo $arquivo24['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod24 as $value) {echo "$value<br>";} ?></figcaption>
@@ -480,7 +483,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			 <div class="atractions2">
 			
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo25 = $sql_query25->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo25 = $sql_query25->fetch_assoc()){
           echo $arquivo25['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod25 as $value) {echo "$value<br>";} ?></figcaption>
@@ -488,7 +491,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo26 = $sql_query26->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo26 = $sql_query26->fetch_assoc()){
           echo $arquivo26['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod26 as $value) {echo "$value<br>";} ?></figcaption>
@@ -496,7 +499,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo27 = $sql_query27->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo27 = $sql_query27->fetch_assoc()){
           echo $arquivo27['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod27 as $value) {echo "$value<br>";} ?></figcaption>
@@ -504,7 +507,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo28 = $sql_query28->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo28 = $sql_query28->fetch_assoc()){
           echo $arquivo28['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod28 as $value) {echo "$value<br>";} ?></figcaption>
@@ -512,7 +515,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo29 = $sql_query29->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo29 = $sql_query29->fetch_assoc()){
           echo $arquivo29['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod29 as $value) {echo "$value<br>";} ?></figcaption>
@@ -520,7 +523,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo30 = $sql_query30->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo30 = $sql_query30->fetch_assoc()){
           echo $arquivo30['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod30 as $value) {echo "$value<br>";} ?></figcaption>
@@ -528,7 +531,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo31 = $sql_query31->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo31 = $sql_query31->fetch_assoc()){
           echo $arquivo31['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod31 as $value) {echo "$value<br>";} ?></figcaption>
@@ -536,7 +539,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo32 = $sql_query32->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo32 = $sql_query32->fetch_assoc()){
           echo $arquivo32['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod32 as $value) {echo "$value<br>";} ?></figcaption>
@@ -548,7 +551,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			 <div class="atractions2">
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo33 = $sql_query33->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo33 = $sql_query33->fetch_assoc()){
           echo $arquivo33['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod33 as $value) {echo "$value<br>";} ?></figcaption>
@@ -556,7 +559,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo34 = $sql_query34->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo34 = $sql_query34->fetch_assoc()){
           echo $arquivo34['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod34 as $value) {echo "$value<br>";} ?></figcaption>
@@ -564,7 +567,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo35 = $sql_query35->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo35 = $sql_query35->fetch_assoc()){
           echo $arquivo35['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod35 as $value) {echo "$value<br>";} ?></figcaption>
@@ -572,7 +575,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo36 = $sql_query36->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo36 = $sql_query36->fetch_assoc()){
           echo $arquivo36['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod36 as $value) {echo "$value<br>";} ?></figcaption>
@@ -580,7 +583,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo37 = $sql_query37->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo37 = $sql_query37->fetch_assoc()){
           echo $arquivo37['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod37 as $value) {echo "$value<br>";} ?></figcaption>
@@ -588,7 +591,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo38 = $sql_query38->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo38 = $sql_query38->fetch_assoc()){
           echo $arquivo38['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod38 as $value) {echo "$value<br>";} ?></figcaption>
@@ -596,7 +599,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo39 = $sql_query39->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo39 = $sql_query39->fetch_assoc()){
           echo $arquivo39['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod39 as $value) {echo "$value<br>";} ?></figcaption>
@@ -604,7 +607,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo40 = $sql_query40->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo40 = $sql_query40->fetch_assoc()){
           echo $arquivo40['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod40 as $value) {echo "$value<br>";} ?></figcaption>
@@ -617,7 +620,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			 <div class="atractions2">
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo41 = $sql_query41->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo41 = $sql_query41->fetch_assoc()){
           echo $arquivo41['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod41 as $value) {echo "$value<br>";} ?></figcaption>
@@ -625,7 +628,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 			
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo42 = $sql_query42->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo42 = $sql_query42->fetch_assoc()){
           echo $arquivo42['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod42 as $value) {echo "$value<br>";} ?></figcaption>
@@ -633,7 +636,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo43 = $sql_query43->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo43 = $sql_query43->fetch_assoc()){
           echo $arquivo43['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod43 as $value) {echo "$value<br>";} ?></figcaption>
@@ -641,7 +644,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 			
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo44 = $sql_query44->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo44 = $sql_query44->fetch_assoc()){
           echo $arquivo44['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod44 as $value) {echo "$value<br>";} ?></figcaption>
@@ -649,7 +652,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo45 = $sql_query45->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo45 = $sql_query45->fetch_assoc()){
           echo $arquivo45['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod45 as $value) {echo "$value<br>";} ?></figcaption>
@@ -657,7 +660,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo46 = $sql_query46->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo46 = $sql_query46->fetch_assoc()){
           echo $arquivo46['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod46 as $value) {echo "$value<br>";} ?></figcaption>
@@ -665,7 +668,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo47 = $sql_query47->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo47 = $sql_query47->fetch_assoc()){
           echo $arquivo47['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod47 as $value) {echo "$value<br>";} ?></figcaption>
@@ -673,7 +676,7 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
             </div>
 
 			<div class="at2">
-			<img class="d-block w-400" height = "250" src="<?php while ($arquivo48 = $sql_query48->fetch_assoc()){
+			<img class="d-block w-200" height = "200" src="<?php while ($arquivo48 = $sql_query48->fetch_assoc()){
           echo $arquivo48['path']; 
           }?> " alt=imagens>
 				<figcaption class="produto"><?php foreach ($prod48 as $value) {echo "$value<br>";} ?></figcaption>
