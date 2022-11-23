@@ -257,12 +257,13 @@ $sql_query48 = $conexao->query("SELECT * FROM upload where id=48") or die($con->
 			<h1>❀ Fairy Cristais ❀</h1>
 			<div class="nav-items">
 			<button class="menu"><img src="menu.png"></button>
-				<a class="nav-button" style="background-color: #cccccc;">Usuário Logado</a>
-				<a href="pag_principal2.html" class="nav-button">Página Inicial</a>
-				<a href="cadastro_clientes2.php" class="nav-button">Realizar Login</a>
-				<a href="sobre2.html" class="nav-button"> Conheça nossa loja </a>
-				<a href="catalogo2.php" class="nav-button"> Catálogo </a>
-				<a href="denuncia2.html" class="nav-button">❣❣❣</a>
+				<a class="nav-button" style="background-color: #cccccc;">Administrador logado</a>
+				<a href="pag_principal3.html" class="nav-button">Início</a>
+				<a href="cadastro_clientes3.php" class="nav-button">Login</a>
+				<a href="sobre3.html" class="nav-button"> Conheça nossa loja </a>
+				<a href="catalogo3.php" class="nav-button"> Catálogo </a>
+				<a href="denuncia3.html" class="nav-button">❣❣❣</a>
+				<a href="lista.php" class="nav-button">Lista Usuários</a>
 			</div>
 		</nav>
 		<section class="section">
